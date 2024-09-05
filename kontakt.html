@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="http://127.0.0.1:5500/index.html" class="navbar-logo">Andrus Veosed</a>
+            <ul class="navbar-menu">
+                <li><a href="http://127.0.0.1:5500/Meist.html">Meist</a></li>
+                <li><a href="http://127.0.0.1:5500/teenused.html">Teenused</a></li>
+                <li><a href="http://127.0.0.1:5500/kontakt.html">Kontakt</a></li>
+            </ul>
+            <div class="navbar-toggle">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="contact-section">
+        <div class="contact-info">
+         
+            <h2>Võtke meiega ühendust</h2>
+            <p>Kui teil on küsimusi, siis võtke juglelt ühendust!</p>
+            <ul>
+                <li><i class="fa fa-map-marker"></i> 1234 Street Name, City, Country</li>
+                <li><i class="fa fa-phone"></i> +1 (555) 123-4567</li>
+                <li><i class="fa fa-envelope"></i> email@example.com</li>
+            </ul>
+            
+        </div>
+
+        <div class="contact-form">
+            <h2>Saatke meile sõnum</h2>
+            <form action="contact.php" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Teie nimi" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Sõnum" required></textarea>
+                </div>
+                <button type="submit">Saada sõnum</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
